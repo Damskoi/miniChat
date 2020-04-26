@@ -1,0 +1,65 @@
+body{
+	background-image: url('img/fondChat.jpg');
+	color: #CD853F;		
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.conteneur{
+	border: 1px solid red;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+label{
+	width: 15%;
+}
+
+#slt{
+	font-size: 1.1em;
+}
+
+span[class="pseudo"]{
+	font-weight: bold;
+
+}
+
+div[class="chat"] {
+	width: 50%;
+	margin: auto;
+	width: auto;
+}
+
+a[href*="detruit"]{
+	text-align: right;
+	color: white
+}
+
+#deconnexion{
+	border : dotted black 2px;
+	text-align: right;
+}
+
+p[class]{
+	background-color: #CECECE;
+	color: black;
+	border: 1px solid blue;
+	width: auto;
+	max-width: 70%;
+	margin: auto;
+	margin-bottom: 3px;
+	padding: 2px;
+}
+
+p[id="moi"]{
+	background-color: #54CA33;
+	text-align: right;
+}
+
+.pseudo{
+	color: #8B4513;
+}

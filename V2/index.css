@@ -1,0 +1,51 @@
+body{
+	color: #900C3F;
+	background-image: url('img/index.jpg');
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.nom{
+	color: red; 
+}
+
+div{
+	display: flex;
+	width: 70%;
+	margin: auto;
+	padding: 1%
+}
+
+label{
+	width: 15%;
+	font-size: 1.1em;
+}
+
+img{
+	width: 100px;
+	height: 100px;
+}
+
+.img{
+	padding: 10%;
+}
+
+div form{
+	padding : 10%;
+}
+
+form {
+	color: black;
+	background-image: url('img/fondForm.jpg');
+}
+
+/*  ENTETE */
+
+
+h1 + p {
+	color: white;
+	text-align: right;
+}

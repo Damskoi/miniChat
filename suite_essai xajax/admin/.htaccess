@@ -1,0 +1,23 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "C:\wamp64\www\Perso\admin\.htpasswd"
+Require valid-user
+
+
+
+
+
+
+<FilesMatch "connexion_POST.php">
+	AuthName "Page d'administration protégée"
+	AuthType Basic
+	AuthUserFile "C:\wamp64\www\Perso\admin\.htpasswd"
+	Require valid-user
+</FilesMatch>
+
+<FilesMatch "inscription_POST.php">
+	AuthName "Page d'administration protégée"
+	AuthType Basic
+	AuthUserFile "C:\wamp64\www\Perso\admin\.htpasswd"
+	Require valid-user
+</FilesMatch>

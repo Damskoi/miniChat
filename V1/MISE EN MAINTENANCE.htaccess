@@ -1,0 +1,6 @@
+ErrorDocument 403 /maintenance.html 
+deny from all 
+allow from xx.xxx.xxx.xxx 
+<Files maintenance.html>
+allow from all
+</Files>
