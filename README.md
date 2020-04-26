@@ -1,0 +1,3 @@
+# miniChat
+
+Projet personnel 
